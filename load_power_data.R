@@ -25,19 +25,7 @@ tail(power2Days$Date, 4)
 
 #clean out full dataframe
 rm(power_all)
+
+#add a dt (datetime) column to the data frame
 power2Days[,'dt'] <- dmy_hms(sprintf("%s %s", as.character(power2Days[, 'Date']), as.character(power2Days[,'Time'])))
 
-
-
-
-#d1<- power[1:10, 'Date']
-#d2<- as.character( d1)
-#t1<- power[1:10, 'Time']
-#t2<- as.character( t1)
-#sprintf("%s %s", d2,t2)
-
-#d3<-dmy(d2)
-#dt<-dmy_hms(sprintf("%s %s", d2,t2))
-
-power[,'dt'] <- dmy_hms(sprintf("%s %s", as.character(power[, 'Date']), as.character(power[,'Time'])))
-rm(power)
