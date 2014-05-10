@@ -1,3 +1,32 @@
+# Week 1. plotting assignment for Exploratory Data Analysis
+
+# What is this Repo.
+1. the data was downloaded and loaded once using routine 'load_power_data.R' . data from unrequired period was deleted. This data is available to al the plot routines.
+
+2. the plot routines follow the requirements 1..4 plot. that is, there is a routine for the plot and the data generated in a png file.
+
+The rest of the project follows the script below downloaded from init GITHUB repo.
+
+* <b>Plot1</b>   code -> 
+  <a href="https://github.com/tonycaine/ExData_Plotting1/blob/master/plot1.R">   Plot1.R</a>
+ plot ->   <a href="https://github.com/tonycaine/ExData_Plotting1/blob/master/plot1.png">Plot1.png</a> 
+
+* <b>Plot2</b>   code -> 
+  <a href="https://github.com/tonycaine/ExData_Plotting1/blob/master/plot2.R">   Plot2.R</a>
+ plot ->   <a href="https://github.com/tonycaine/ExData_Plotting1/blob/master/plot2.png">Plot2.png</a> 
+
+* <b>Plot3</b>   code -> 
+  <a href="https://github.com/tonycaine/ExData_Plotting1/blob/master/plot3.R">   Plot3.R</a>
+ plot ->   <a href="https://github.com/tonycaine/ExData_Plotting1/blob/master/plot3.png">Plot3.png</a> 
+
+* <b>Plot4</b>   code -> 
+  <a href="https://github.com/tonycaine/ExData_Plotting1/blob/master/plot4.R">   Plot4.R</a>
+ plot ->   <a href="https://github.com/tonycaine/ExData_Plotting1/blob/master/plot4.png">Plot4.png</a> 
+
+
+
+
+
 ## Introduction
 
 This assignment uses data from
