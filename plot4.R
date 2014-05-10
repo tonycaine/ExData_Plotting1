@@ -56,7 +56,7 @@ get_plot3 <- function() {
   lines( x=power2days$dt, y=power2days$Sub_metering_2, col='red')
   
   lines( x=power2days$dt, y=power2days$Sub_metering_3, col='blue')
-  legend("topright", inset=2, lty = 1,box.lwd = 0, 
+  legend("topright",  bty = "n", lty = 1,box.lwd = 0, 
          box.col = "white", 
          #bg = "white",
          col=c('black','red','blue'),  c('Sub_metering_1','Sub_metering_3','Sub_metering_3'))
