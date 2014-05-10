@@ -3,6 +3,10 @@
 # What is this Repo.
 1. the data was downloaded and loaded once using routine 'load_power_data.R' . data from unrequired period was deleted. This data is available to al the plot routines.
 
+   <b>load_power_data.R</b>   code -> 
+  <a href="https://github.com/tonycaine/ExData_Plotting1/blob/master/load_power_data.R">   load_power_data.R</a>
+
+
 2. the plot routines follow the requirements 1..4 plot. that is, there is a routine for the plot and the data generated in a png file.
 
 The rest of the project follows the script below downloaded from init GITHUB repo.
