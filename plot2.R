@@ -7,6 +7,9 @@ p.main=''
 p.xlab = ''
 p.ylab = 'Global Active Power (kilowatts)'
 p.filename ='plot2.png'
+p.width=480
+p.height=480
+p.units="px"
 p.col='black'
   
 
@@ -14,7 +17,8 @@ p.col='black'
 #make it to the png directly - control the size
 
 png(filename = p.filename,
-    width = 480, height = 480, units = "px")
+   width = p.width, height = p.height, units = p.units)
+    
 plot(
   type='l',
   x=power2days$dt,
